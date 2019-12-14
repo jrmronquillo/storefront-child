@@ -30,7 +30,18 @@
 <?php
 if(is_front_page()):
     ?>
-    <a href="http://instagram.com/chiffonseed"> Instagram</a>
+    <ul id="custom-menu-list">
+        <li class="custom-li">
+            <a href="/shop">Shop</a>
+        </li>
+        <li class="custom-li">
+            <a href="http://instagram.com/chiffonseed"> Instagram</a>
+        </li>
+        <li class="custom-li">
+            <a href="/blog"> How To's</a>
+        </li>
+
+
 <?php
 else :
      /**
